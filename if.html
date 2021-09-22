@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="god.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div>
+<img src="title.png" width="150" height="30">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn success" onclick="location.href='index.html'">Home</button>
+<button class="btn info" onclick="location.href='about.html'">About</button>
+<button class="btn danger">Courses</button>
+<button class="btn default">Contacts</button>
+<div class="sq1"></div>
+</div>
+
+
+<table style="width:100%">
+<tr>
+<td style="width:18%" valign="top">
+<div class="vertical-menu">
+<font>
+  <a href="index.html" class="active">ආරම්භය </a>
+  <a href="index.html#මූලික අංක ගණිතමය ගැටලු විසදීම">මූලික ගැටලු විසදීම</a>
+  <a href="index.html#පාඨයක් ප්‍රදර්ශනය කිරීම">පාඨ ප්‍රදර්ශනය</a>
+  <a href="variables.html">විචල්‍ය</a>
+  <a href="variables.html#substring">Substring</a> 
+  <a href="#list.html">ලයිස්තු </a> 
+  <a href="dictionary.html">නාමාවලි</a> 
+  <a href="#">IF ප්‍රකාශනය </a> 
+  <a href="while.html">WHILE ප්‍රකාශනය</a> 
+  <a href="contro.html">පුනර්කරණ පාලනය </a> 
+  <a href="for.html">FOR ප්‍රකාශනය</a> 
+  <a href="function.html">FUNCTION භාවිතය </a> 
+ </font>
+</div>
+</td>
+<td style="padding:20px";>
+<font>
+<h1>IF ප්‍රකාශනය</h1>
+
+IF ප්‍රකාශනය ආදර්ශනය කිරීමේදී පහත පියවර අනුපිලිවෙල අනුගමනය කරන්න.<br>
+		<ul type="circle">
+		<li>මුලින්ම ප්‍රධාන මෙනුවට ගොස් IDLE(Python GUI) තෝරන්න</li>
+		<li>Python shell එකේ File ---->  New Window තෝරන්න</li>
+		<li>කෝඩ් එක ටයිප් කරන්න</li>
+		<li>Run ------> Run Module හෝ F5 තෝරන්න</li>
+		</ul>
+
+මුලින්ම IF ප්‍රකාශනයේ කාරක නීතිය බලමු.
+
+		<p><code>if කොන්දේසිය: <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;ප්‍රකාශනය<br>
+		else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;ප්‍රකාශනය<br> 
+	    </code></p>
+		
+ළමයෙක්ගේ ලකණු 50 ට වැඩි නම් 'Good' ලෙස ද ඊට අඩුනම් 'Weak' ලෙස ද පෙන්වන්න. <br> 
+		<p><code> Mark=50  &lt;------------------- ළමයාගේ ලකණු Mark නම් විචල්‍යයකට සමානකර ඇත<br>
+		if Mark &gt;50:&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print 'Good'<br>
+		else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print 'Weak'</code></p>
+		<blockquote><p>Weak</p></blockquote><br><br>
+		
+සංඛ්‍යා 2 කින් වඩා විශාල සංඛ්‍යාව සොයන ආකාරය බලමු.<br><br><br> 
+
+මුලින්ම අපි සංඛ්‍යා 2 ක a හා b ලෙස ගනිමු.<br>
+		<p><code> a=5<br>
+		b=10<br>
+		if a&gt;b:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print 'large number is a'<br>
+		else:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print 'large number is b'</code></p>
+		<blockquote><p>large number is b</p></blockquote><br>
+
+දෙනලද සංඛ්‍යාවක් 80 ට වැඩි ද 80 හෝ ඊට අඩුදැයි පරික්ෂා කිරීම.<br>
+		<p><code> Mark=input('Enter your Sinhala mark  : ')  <-------- ආදානය ගැනීම<br>
+		if Mark&gt;80:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('qulified')<br>
+		else:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('Not quilified')</code></p>
+		<blockquote><p>Enter your Sinhala mark  : 75<br>Not quilified</p></blockquote><br>
+		
+තීරණ කිහිපයක් භාවිතා කිරීම.<br>
+	    <p><code>Mark=input('Enter your Sinhala mark  : ')
+		<br>if Mark>80:
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('grade is  -  A')
+		<br>elif Mark>60:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('grade is  -  B')
+		<br>else:
+        <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print('grade is  -  W') 
+		</code><p>
+		<blockquote><p>Enter your Sinhala mark  : 65
+		<br>grade is  -  B</p>
+	    </blockquote><br>
+</font>
+
+</td>
+</tr>
+</table>
+
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" onclick="window.location.href='dictionary.html';">පෙර  පිටුවට</button>
+<button class="button" onclick="window.location.href='while.html';">පසු පිටුවට</button>
+<br><br><br><br><br>
+
+<!-- footer block start -->
+<div class="footer" style="text-align:justify">
+<table>
+<tr>
+<td width="25%" style="padding:40px" id="fontf">
+<img src="title.png" width="150" height="30">
+<br><br><br><br>
+<img src="phone.png" width="20" height="25">
++94718851353
+<br>
+<img src="mail.png" width="20" height="25">
+itrushanedu@gmail.com
+</td>
+<td id="fontf" class="boxhead" width="50">
+<br><br><br><a href="index.html" style="color:white;">Home</a><br><a href="about.html" style="color:white;">About us</a><br>Courses<br>Contacts
+</td>
+<td width="100" id="fontf"><br><br><br>
+උසස් පෙළ විශය නිර්දේශයේ PYTHON ක්‍රමලේඛ භාෂාවට අදාල  විශය අන්තර්ගතය සරලව 
+මුල සිට ප්‍රායෝගිකව සිසුන්ට ඉගෙන ගැනීමට හැකිවනසේ විෂය කොටස් පෙළගස්වා ඇත.
+</td>
+<td width="40%"></td>
+</tr>
+</table>
+</div>
+<!--<div class="footer1"></div>   -->
+<!-- footer block end -->
+</body>
+</html>

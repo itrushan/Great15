@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="god.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div>
+<img src="title.png" width="150" height="30">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn success" onclick="location.href='index.html'">Home</button>
+<button class="btn info" onclick="location.href='about.html'">About</button>
+<button class="btn danger">Courses</button>
+<button class="btn default">Contacts</button>
+<div class="sq1"></div>
+</div>
+
+
+<table style="width:100%">
+<tr>
+<td style="width:18%" valign="top">
+<div class="vertical-menu">
+<font>
+  <a href="index.html" class="active">ආරම්භය </a>
+  <a href="index.html#මූලික අංක ගණිතමය ගැටලු විසදීම">මූලික ගැටලු විසදීම</a>
+  <a href="index.html#පාඨයක් ප්‍රදර්ශනය කිරීම">පාඨ ප්‍රදර්ශනය</a>
+  <a href="variables.html">විචල්‍ය</a>
+  <a href="variables.html#substring">Substring</a> 
+  <a href="list.html">ලයිස්තු </a> 
+  <a href="dictionary.html">නාමාවලි</a> 
+  <a href="if.html">IF ප්‍රකාශනය </a> 
+  <a href="while.html">WHILE ප්‍රකාශනය</a> 
+  <a href="#">පුනර්කරණ පාලනය </a> 
+  <a href="for.html">FOR ප්‍රකාශනය</a> 
+  <a href="function.html">FUNCTION භාවිතය </a>  
+ </font>
+</div>
+</td>
+<td style="padding:20px";>
+<font>
+<h1> පුනර්කරණ පාලන ප්‍රකාශන </h1>
+පුනර්කරණ පාලන ව්‍යුහ ප්‍රධාන වශයෙන් 2 කි. <br><br><br>
+
+		<table bgcolor="dodgerblue" border="1" width="90%" height="200px">
+		<tr><th>පුනර්කරණ පාලන ව්‍යුහය</th><th>සිදුකරණ කාර්යය</th></tr>
+		<tr><td>Break</td><td>පුනර්කරණය සම්පූරණයෙන්ම අවසන් කරයි.</td></tr>
+		<tr><td>Continue</td><td>පැවැති පුනර්කරණ වටය නවතා ඊලග පුනර්කරණ වටය ආරම්භ කරයි.</td></tr>
+		</table><br><br>
+		
+මුලින්ම Break ප්‍රකාශනය භාවිතා කරන ආකාරය බලමු.<br>
+		<p><code> a=2
+		<br>while a<6:
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print a
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a=a+1
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;break
+		</code></p>
+		<blockquote><p>2<br>මෙහිදී break ප්‍රකාශනය මගින් පුනර්කරණය සම්පූරණයෙන් අවසන් වේ.</p></blockquote></br>
+		
+දැන් Break ප්‍රකාශනය භාවිතා නොකළවිට සිදුවන දේ බලමු.<br>
+		<p><code> a=2
+		<br>while a<6:
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print a
+		<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a=a+1
+		</code></p>
+		<blockquote>
+		  <p>2<br>
+		    3<br>
+		    4<br>
+	      5</p>
+	    </blockquote><br>
+		
+දැන් Continue ප්‍රකාශනය භාවිතා කරන ආකාරය බලමු.<br>
+		<p><code> a=0<br>
+		total=0<br>
+		while a&lt;5:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mark=input('enter mark  - ')<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total=total+mark<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a=a+1<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print total<br>
+		print total</code></p>
+		<blockquote>
+		  <p>enter mark  - 45<br>
+		    enter mark  - 34<br>
+		    enter mark  - 56<br>
+		    enter mark  - 78<br>
+		    enter mark  - 76<br>
+	      289</p>
+		  <p>continue ප්‍රකාශනය මගින් While පුනර්කරණ‍ය continue ප්‍රකාශනය අසලින් නවතා නව පුනර්කරණයක් ආරම්භ කරයි<br>
+		  එමනිසා පුනර්කරණයේ continue ප්‍රකාශනයට යටින් ඇති print total ප්‍රකාශනය ධාවනය නොවේ</p>
+		</blockquote><br>
+		
+දැන් Continue ප්‍රකාශනය භාවිතා නොකලවිට ලැබෙන ප්‍රතිධානය බලමු.<br>
+		<p><code> a=0<br>
+		total=0<br>
+		while a&lt;5:<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mark=input('enter mark  - ')<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total=total+mark<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a=a+1<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print total<br>
+		print total</code></p>
+		<blockquote>
+		  <p>enter number  - 23<br>
+		    23<br>
+		    enter number  - 45<br>
+		    68<br>
+		    enter number  - 56<br>
+		    124<br>
+		    enter number  - 67<br>
+		    191<br>
+		    enter number  - 78<br>
+		    269<br>
+	      269</p>
+		  <p>continue ප්‍රකාශනය නෙමැති වුවිට පුනර්කරණයේ ඇති සියලුම ප්‍රකාශන ධාවනය වේ.</p>
+		</blockquote><br>
+	
+
+</font>
+
+</td>
+</tr>
+</table>
+
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" onclick="window.location.href='while.html';">පෙර  පිටුවට</button>
+<button class="button" onclick="window.location.href='for.html';">පසු පිටුවට</button>
+<br><br><br><br><br>
+
+<!-- footer block start -->
+<div class="footer" style="text-align:justify">
+<table>
+<tr>
+<td width="25%" style="padding:40px" id="fontf">
+<img src="title.png" width="150" height="30">
+<br><br><br><br>
+<img src="phone.png" width="20" height="25">
++94718851353
+<br>
+<img src="mail.png" width="20" height="25">
+itrushanedu@gmail.com
+</td>
+<td id="fontf" class="boxhead" width="50">
+<br><br><br><a href="index.html" style="color:white;">Home</a><br><a href="about.html" style="color:white;">About us</a><br>Courses<br>Contacts
+</td>
+<td width="100" id="fontf"><br><br><br>
+උසස් පෙළ විශය නිර්දේශයේ PYTHON ක්‍රමලේඛ භාෂාවට අදාල  විශය අන්තර්ගතය සරලව 
+මුල සිට ප්‍රායෝගිකව සිසුන්ට ඉගෙන ගැනීමට හැකිවනසේ විෂය කොටස් පෙළගස්වා ඇත.
+</td>
+<td width="40%"></td>
+</tr>
+</table>
+</div>
+<!--<div class="footer1"></div>   -->
+<!-- footer block end -->
+</body>
+</html>

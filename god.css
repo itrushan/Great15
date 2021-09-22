@@ -1,0 +1,144 @@
+
+.sq1{
+height:15px;
+width:1260px;
+background-color:dodgerblue;
+}
+a:link {
+  text-decoration: none;
+}
+
+p{
+font-size:20px;
+}
+
+h1{
+text-align:center;
+background-color:dodgerblue;
+}
+
+font{
+font-size:20px;
+}
+
+#hp  {
+float: none;    
+ margin: 0 15px 0 0;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 24px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+  font-family:
+}
+.btn:hover {background: #eee;}
+
+.success {color: dodgerblue;}
+.info {color: dodgerblue;}
+.warning {color: dodgerblue;}
+.danger {color: dodgerblue;}
+.default {color: dodgerblue;}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: dodgerblue; /* Add a green color to the "active/current" link */
+  color: white;
+}
+/*footer */
+.footer{
+width:1260px;
+height:300px;
+background-color:dodgerblue;
+}
+
+.footer1{
+width:1260px;
+height:50px;
+background-color:#2E8BC0;
+}
+
+#fontf{
+color:white;
+font-size:20px;
+}
+
+/* code block */
+code, blockquote {
+	display: block;
+	border-left: 5px solid #222;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+code {
+	background-color: #c0c0c0;
+	border: none;
+}
+blockquote {
+	border-left: 10px solid dodgerblue;
+	margin:0;
+}
+
+blockquote p {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	height: 1.5%;
+}
+/* code block finish */
+
+/* below button start*/
+.button {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 32px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width:40%;
+}
+
+.button:hover {opacity: 1}
+
+/* below button end*/
+
+
+</style>
+</head>
+<body>

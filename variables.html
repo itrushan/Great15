@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="god.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div>
+<img src="title.png" width="150" height="30">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn success" onclick="location.href='index.html'">Home</button>
+<button class="btn info" onclick="location.href='about.html'">About</button>
+<button class="btn danger">Courses</button>
+<button class="btn default">Contacts</button>
+<div class="sq1"></div>
+</div>
+
+
+<table style="width:100%">
+<tr>
+<td style="width:18%" valign="top">
+<div class="vertical-menu">
+<font>
+  <a href="index.html#" class="active">ආරම්භය </a>
+  <a href="index.html#මූලික අංක ගණිතමය ගැටලු විසදීම">මූලික ගැටලු විසදීම</a>
+  <a href="index.html#පාඨයක් ප්‍රදර්ශනය කිරීම">පාඨ ප්‍රදර්ශනය</a>
+  <a href="#">විචල්‍ය</a>
+  <a href="#substring">Substring</a> 
+  <a href="list.html">ලයිස්තු </a> 
+  <a href="dictionary.html">නාමාවලි</a> 
+  <a href="if.html">IF ප්‍රකාශනය </a> 
+  <a href="while.html">WHILE ප්‍රකාශනය</a> 
+  <a href="contro.html">පුනර්කරණ පාලනය </a> 
+  <a href="for.html">FOR ප්‍රකාශනය</a> 
+  <a href="function.html">FUNCTION භාවිතය </a> 
+ </font>
+</div>
+</td>
+<td style="padding:20px";>
+<h1> විචල්‍ය ( variable )</h1>
+<font>
+විචල්‍යයක්  යනු පරිගණක වැඩසටහනක අගයන් තැන්පත්  කිරීම සඳහා භාවිතා කරන පරිගණක මතක ස්ථානවලට දෙන නමකි. <br><br>
+
+පයිතන් භාෂාවේ විචල්‍ය භාවිතයේ දී අවධානය යොමුකළ යුතු කරුණු කිහිපයකි.<br>
+	     <ul>
+		 <li>පයිතන් භාෂාවේ විචල්‍ය හදුන්වාදීම ( Declare ) අවශ්‍ය නොවේ.</li>
+		 <li>පයිතන් භාෂාවේ විචල්‍ය වලට අගයන් පැවරීම පමනක් කළ හැකිය.</li>
+		 </ul>
+
+පයිතන් භාෂාවේ විචල්‍ය සදහා පහත ආකාරයෙන් අගයන් පැවරිය හැක.<br>
+		
+		<p><code> >>> x=14</code></p>
+        <blockquote><p> මෙහිදී x විචල්‍ය සදහා 14 නම් අගය පැවරේ</p></blockquote><br>
+
+X විචල්‍ය සදහා නිසි ආකාරයෙන් අගය පැවරී ඇත්දැයි පහත ආකාරයෙන් සනාත කරගත හැක.<br>
+		<p><code> >>> x</code></p>
+		<blockquote> <p>14</p></blockquote>	<br>
+
+පහත ආකාරයෙන් විචල්‍ය සදහා පාඨ (String) ද පැවරිය හැක.<br>
+		<p><code> >>> y='elephant'</code></p>
+		<blockquote><p>මෙහිදී y විචල්‍ය සදහා Elephant නම් අගය පැවරේ</p></blockquote><br>	
+		
+පාඨ (String) වලදී  '+'  භාවිතයෙන් වචන 2 ක් එකට සම්භන්ධ කළ හැක. <br>
+		<p><code> >>> a='kamal'<br> >>> b=a+'Perera'<br> >>> b</br></code></p>
+		<blockquote><p>'kamalPerera'</p></blockquote><br>
+
+වචන අතර හිස්තැන් තැබීමට පහත ක්‍රමය භාවිත කළ හැක.<br>
+		<p><code> >>> b=a+' Perera'</code></p>
+		<blockquote><p>'kamal Perera'</p></blockquote><br>	
+
+<h1 id="substring">substring</h1>
+
+වචනයකිනි අක්ෂරයක් හෝ වචන කොටසක් වෙන්කර ගන්නා ආකාරය අපි දැන් බලමු.<br><br>
+මුලින්ම  m විචල්‍ය සදහා අගයක් ආදේශ කර ගනිමු.<br>
+	    <p><code> >>> m='England'<br> >>> m</code></p>	
+		<blockquote><p>'England'</p></blockquote><br>
+		
+දැන් ඉහත පාඨයෙන් 4 වන අක්ෂරය වෙන්කර ගන්නා ආකාරය බලමු. <br>	
+		<p><code> >>> m[3]</code></p>
+	    <blockquote><p>'l'<br>මෙහි පාඨයේ පලමු අක්ෂරය වන 'E' හි දර්ශකය වන්නේ '0' ය. එම නිසා 4 වන අක්ෂරයේ දර්ශකය වන්නේ '3' ය. <br>විචල්‍යයේ නම[දර්ශකය]</p></blockquote><br>
+		
+        <p><code> >>> m[-2]</code></p>
+	    <blockquote><p>'n'<br>මෙහිදී '-' ලකණ දර්ශනය සමග යෙදුනහොත් ප්‍රදර්ශනය වන්නේ පාඨයේ අග සිටය.<br>දර්ශකය පාඨයේ අගින් පටන්ගන්නේ '-1' සිටය. </p>
+	    </blockquote><br>
+		
+ඉහත පාඨයෙන් අක්ෂර කිහිපයක්(වචනයෙන් කොටසක්)වෙන්කර ගන්නා ආකාරය බලමු.<br>
+		<p><code> >>> m[2:4]</code></p>
+		<blockquote><p>'gl'<br>මෙහිදී දර්ශකය 2 සිට 3 දක්වා (2 න් පටන්ගෙන 4 ට අඩු දර්ශකය දක්වා) පෙන්වයි.</p></blockquote><br>
+		
+        <p><code> >>> m[3:]</code></p>
+	    <blockquote><p>'land' <br>මෙහිදී දර්ශකය 3 න් පටන් ගෙන පසුපස අක්ෂර පමනක් පෙන්වයි.</p></blockquote><br>
+		
+		<p><code> >>> m[:2]</code></p>
+		<blockquote><p>'En'<br>මෙහිදී දර්ශකය 2 ප්‍රදර්ශනය නොවී දර්ශකය 0 හා 1 පමනක් ප්‍රදර්ශනය වේ.</p></blockquote><br>
+</font>
+
+</td>
+</tr>
+</table>
+
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="button" onclick="window.location.href='index.html';">පෙර  පිටුවට</button>
+<button class="button" onclick="window.location.href='list.html';">පසු පිටුවට</button>
+<br><br><br><br><br>
+
+ <!-- footer block start -->
+<div class="footer" style="text-align:justify">
+<table>
+<tr>
+<td width="25%" style="padding:40px" id="fontf">
+<img src="title.png" width="150" height="30">
+<br><br><br><br>
+<img src="phone.png" width="20" height="25">
++94718851353
+<br>
+<img src="mail.png" width="20" height="25">
+itrushanedu@gmail.com
+</td>
+<td id="fontf" class="boxhead" width="50">
+<br><br><br><a href="index.html" style="color:white;">Home</a><br><a href="about.html" style="color:white;">About us</a><br>Courses<br>Contacts
+</td>
+<td width="100" id="fontf"><br><br><br>
+උසස් පෙළ විශය නිර්දේශයේ PYTHON ක්‍රමලේඛ භාෂාවට අදාල  විශය අන්තර්ගතය සරලව 
+මුල සිට ප්‍රායෝගිකව සිසුන්ට ඉගෙන ගැනීමට හැකිවනසේ විෂය කොටස් පෙළගස්වා ඇත.
+</td>
+<td width="40%"></td>
+</tr>
+</table>
+</div>
+<!--<div class="footer1"></div>   -->
+<!-- footer block end -->
+</body>
+</html>
