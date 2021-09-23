@@ -4,6 +4,11 @@ height:15px;
 width:1260px;
 background-color:dodgerblue;
 }
+
+body{
+width:100;	
+}
+
 a:link {
   text-decoration: none;
 }
